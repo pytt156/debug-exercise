@@ -8,5 +8,6 @@ En rad per fel. Skriv medan du minns hur du gjorde.
 | 2  |    Couldnt find lockfile.                |    Github                     |   borde ha kört en uv sync direkt när jag klonade                          |    körde uv sync               |
 | 3  |    ruff går inte igenom                |    github                     |    importfel                         |   kör uv run ruff check --fix                |
 | 4  |    ruff går inte igenom på formatnivå                |    github                     |                             |   kör uv run ruff format                |
+| 5  |    pytests får en failure                |    lokalt (uv run pytest)                     |    logiskt fel, summan delas med window +1 i stället för antalet värden i fönstret                         |   ändrade nämnaren från window +1 till window så funktionen beräknar rätt medelvärde                |
 
 Fortsätt tabellen med fler rader vid behov.
